@@ -30,9 +30,9 @@ const Hero = () => {
         </div>
 
         <div>
-          <h1 className={`${styles.heroHeadText} text-white`}> Hi, I&apos;m <span className='text-[#915EFF]'>Jure</span></h1>
+          <h1 className={`${styles.heroHeadText} text-white`}> Hi, We are <span className='text-[#915EFF]'>Buildifyy</span></h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Self-taught Full-stack <br className='block sm:hidden' /> Web Developer
+            Turning your Tech Problems into Solutions
           </p>
         </div>
       </div>
