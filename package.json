@@ -37,5 +37,9 @@
     "postcss": "^8.4.28",
     "tailwindcss": "^3.3.3",
     "vite": "^4.4.5"
-  }
+  },
+  "description": "Welcome to my portfolio repository! This repository showcases a collection of my projects, work, and creations.",
+  "main": "postcss.config.js",
+  "author": "",
+  "license": "ISC"
 }
