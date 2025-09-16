@@ -22,6 +22,17 @@ import {
   nextjs,
   git,
   threejs,
+  python,
+  mysql,
+  postgresql,
+  powerplatform,
+  mongodb,
+  csharp,
+  dotnet,
+  dotnetcore,
+  redis,
+  php,
+  golang,
 
   // Projects
   shirtcreator,
@@ -32,6 +43,10 @@ import {
   jcpro,
   jotion,
   digitalmarketplace,
+
+  // Person Icons
+  person_m,
+  person_f
 
 } from "../assets";
 
@@ -114,45 +129,49 @@ const experiences = [
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
     name: "JavaScript",
     icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
   },
   {
     name: "React JS",
     icon: reactjs,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
     name: "Next JS",
     icon: nextjs,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Python",
+    icon: python
   },
   {
-    name: "git",
-    icon: git,
+    name: "MySQL",
+    icon: mysql
   },
+  {
+    name: "MongoDB",
+    icon: mongodb
+  },
+  {
+    name: "Power Platform",
+    icon: powerplatform
+  },
+  {
+    name: "C#",
+    icon: csharp
+  },
+  {
+    name: ".NET Core",
+    icon: dotnetcore
+  },
+  {
+    name: "PHP",
+    icon: php
+  },
+  {
+    name: "Golang",
+    icon: golang
+  }
 ];
 
 const projectAbout = 'Following projects showcases my skills and experience through real-world examples of my work. Each project is briefly described with links to code repositories and live demos in it. It reflects my ability to solve complex problems, work with different technologies, and manage projects effectively.';
@@ -352,28 +371,21 @@ const projects = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Jure proved me wrong.",
-    name: "David Wallace",
-    designation: "CFO",
-    company: "Dunder Mifflin inc.",
-    image: "https://media.licdn.com/dms/image/C4E03AQHU6R-7mLLOuA/profile-displayphoto-shrink_800_800/0/1590010254084?e=2147483647&v=beta&t=GzUb1fUjfrPvoT35JVfoSCG8qnIEq-zvkj4DyRj2Sz8",
+      "What impressed us most wasn’t just their technical skill — it was how deeply they listened. It felt like they were part of our internal team.",
+    name: "Aryan Upadhyay",
+    image: person_m,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Jure does.",
-    name: "Jo Bennett",
-    designation: "COO",
-    company: "Sabre inc.",
-    image: "https://i.ibb.co/5ktt59x/jobennet.png",
+      "Our internal devs were stuck on an integration for weeks. Buildifyy solved it in a day and even documented everything clearly. Lifesavers.",
+    name: "Sean Walters",
+    image: person_m,
   },
   {
     testimonial:
-      "After Jure optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Bob Vance",
-    designation: "CEO",
-    company: "Vance Refrigeration",
-    image: "https://media.licdn.com/dms/image/C4D03AQHFsWT5mNMh8A/profile-displayphoto-shrink_800_800/0/1587495120000?e=2147483647&v=beta&t=4kEGJH_D6aZOfD5Vg8VgI42CMo5hXVA7UGHOG4uWVGY",
-    // image was: https://randomuser.me/api/portraits/men/9.jpg
+      "I’ve hired agencies before, but none matched the clarity and reliability Buildifyy to the table. Felt like a partnership, not a service.",
+    name: "Gill Farell",
+    image: person_f,
   },
 ];
 

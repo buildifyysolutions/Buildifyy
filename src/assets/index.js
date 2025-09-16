@@ -1,4 +1,4 @@
-import logo from "./misc/logo.svg";
+import logo from "./misc/logo.png";
 
 import backend from "./misc/backend.png";
 import creator from "./misc/creator.png";
@@ -26,6 +26,17 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import nextjs from "./tech/nextjs.png";
+import python from "./tech/python.png";
+import mysql from "./tech/mysql.png";
+import postgresql from "./tech/postgresql.png";
+import powerplatform from "./tech/powerplatform.png";
+import mongodb from "./tech/mongodb.png";
+import csharp from "./tech/csharp.png";
+import dotnet from "./tech/dotnet.png";
+import dotnetcore from "./tech/dotnetcore.png";
+import redis from "./tech/redis.png";
+import php from "./tech/php.png";
+import golang from "./tech/golang.png";
 
 import lek from "./company/lek.png";
 import zelinka from "./company/zelinka.png";
@@ -38,6 +49,9 @@ import remindme from "./projects/remindme.png";
 import jcpro from "./projects/jcpro.png";
 import jotion from "./projects/jotion.png";
 import digitalmarketplace from "./projects/digitalmarketplace.png";
+
+import person_m from "./testimonials/person-m.png";
+import person_f from "./testimonials/person-f.png";
 
 export {
   logo,
@@ -67,6 +81,17 @@ export {
   typescript,
   threejs,
   nextjs,
+  python,
+  mysql,
+  postgresql,
+  powerplatform,
+  mongodb,
+  csharp,
+  dotnet,
+  dotnetcore,
+  redis,
+  php,
+  golang,
 
   lek,
   zelinka,
@@ -79,4 +104,7 @@ export {
   jcpro,
   jotion,
   digitalmarketplace,
+
+  person_m,
+  person_f
 };
