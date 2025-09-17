@@ -49,6 +49,7 @@ import remindme from "./projects/remindme.png";
 import jcpro from "./projects/jcpro.png";
 import jotion from "./projects/jotion.png";
 import digitalmarketplace from "./projects/digitalmarketplace.png";
+import devSphereHome from "./projects/dev-sphere-home.png";
 
 import person_m from "./testimonials/person-m.png";
 import person_f from "./testimonials/person-f.png";
@@ -104,7 +105,7 @@ export {
   jcpro,
   jotion,
   digitalmarketplace,
-
   person_m,
-  person_f
+  person_f,
+  devSphereHome,
 };
