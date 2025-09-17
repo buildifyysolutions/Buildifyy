@@ -38,6 +38,7 @@ import remindme from "./projects/remindme.png";
 import jcpro from "./projects/jcpro.png";
 import jotion from "./projects/jotion.png";
 import digitalmarketplace from "./projects/digitalmarketplace.png";
+import devSphereHome from "./projects/dev-sphere-home.png";
 
 export {
   logo,
@@ -79,4 +80,5 @@ export {
   jcpro,
   jotion,
   digitalmarketplace,
+  devSphereHome,
 };

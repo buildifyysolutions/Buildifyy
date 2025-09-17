@@ -32,6 +32,7 @@ import {
   jcpro,
   jotion,
   digitalmarketplace,
+  devSphereHome,
 
 } from "../assets";
 
@@ -155,22 +156,14 @@ const technologies = [
   },
 ];
 
-const projectAbout = 'Following projects showcases my skills and experience through real-world examples of my work. Each project is briefly described with links to code repositories and live demos in it. It reflects my ability to solve complex problems, work with different technologies, and manage projects effectively.';
+const projectAbout = 'Following projects showcases our skills and experience through real-world examples of our work. Each project is briefly described with links to code repositories and live demos in it. It reflects our ability to solve complex problems, work with different technologies, and manage projects effectively.';
 
 const projects = [
   {
-    name: "DigitalHippo",
+    name: "Dev Sphere",
     description:
-      "🖼️ A Modern Fullstack E-Commerce Marketplace for Digital Products",
+      "🖼️ A space where developers ask, answer, and grow together.",
     tags: [
-      {
-        name: "MongoDB",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Stripe",
-        color: "red-text-gradient",
-      },
       {
         name: "Next.JS",
         color: "white-text-gradient",
@@ -184,14 +177,13 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "Payload",
-        color: "purple-text-gradient",
+        name: "MongoDB",
+        color: "green-text-gradient",
       },
-      
     ],
-    image: digitalmarketplace,
-    website_link: "https://jc-digitalmarketplace.up.railway.app/",
-    source_code_link: "https://github.com/jurecapuder/digital_marketplace",
+    image: devSphereHome,
+    website_link: "https://dev-sphere-seven.vercel.app/",
+    source_code_link: "https://github.com/ankushkhatri/dev-sphere",
   },
   {
     name: "Jotion",
@@ -240,112 +232,6 @@ const projects = [
     image: remindme,
     website_link: "https://jc-remindme.vercel.app/",
     source_code_link: "https://github.com/jurecapuder/remindme",
-  },
-  {
-    name: "JC Pro",
-    description:
-      "🔃 SEO website about PDF guide searching",
-    tags: [
-      {
-        name: "Tailwind CSS",
-        color: "teal-text-gradient",
-      },
-      {
-        name: "TypeScript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Sanity",
-        color: "red-text-gradient",
-      },
-      {
-        name: "Next.JS",
-        color: "white-text-gradient",
-      },
-    ],
-    image: jcpro,
-    website_link: "https://jc-jcpro.vercel.app/",
-    source_code_link: "https://github.com/jurecapuder/jcpro",
-  },
-  {
-    name: "Shirt Creator",
-    description:
-      "👕 User-friendly web application that allows users to customize and visualize shirt designs in 3D.",
-    tags: [
-      {
-        name: "React",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "ThreeJS",
-        color: "white-text-gradient",
-      },
-      {
-        name: "Tailwind",
-        color: "teal-text-gradient",
-      },
-    ],
-    image: shirtcreator,
-    website_link: "https://jc-shirtcreator.vercel.app/",
-    source_code_link: "https://github.com/jurecapuder/ShirtCreator",
-  },
-  {
-    name: "Sushi Landing Page",
-    description:
-      "🍣 A responsive and captivating landing page for a fictional sushi restaurant, built with HTML, CSS, and JavaScript.",
-    tags: [
-      {
-        name: "HTML",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "CSS",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "JavaScript",
-        color: "yellow-text-gradient",
-      },
-    ],
-    image: sushi,
-    website_link: "https://jc-sushiman.vercel.app/",
-    source_code_link: "https://github.com/jurecapuder/Sushi",
-  },
-  {
-    name: "Car Hub",
-    description:
-      "🚗 Car Hub is a user-friendly web application that simplifies the process of finding and comparing rental prices for various cars.",
-    tags: [
-      {
-        name: "TypeScript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Next.JS",
-        color: "white-text-gradient",
-      }
-    ],
-    image: carhub,
-    website_link: "https://jc-carhub.vercel.app/",
-    source_code_link: "https://github.com/jurecapuder/carshowcase",
-  },
-  {
-    name: "Android Weather App",
-    description:
-      "Android application to display the weather forecast.",
-    tags: [
-      {
-        name: "Java",
-        color: "red-text-gradient",
-      },
-      {
-        name: "XML",
-        color: "green-text-gradient",
-      },
-    ],
-    image: androidweatherapp,
-    website_link: "https://appetize.io/embed/ml6hhcr36an3udxuqg6nbl72lm",
-    source_code_link: "https://github.com/jurecapuder/AndroidWeatherApp",
   },
 ];
  
