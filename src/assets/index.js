@@ -37,6 +37,7 @@ import dotnetcore from "./tech/dotnetcore.png";
 import redis from "./tech/redis.png";
 import php from "./tech/php.png";
 import golang from "./tech/golang.png";
+import blazor from "./tech/blazor.png";
 
 import milestone from "./company/white-circle.png";
 
@@ -92,6 +93,7 @@ export {
   redis,
   php,
   golang,
+  blazor,
   milestone,
   shirtcreator,
   androidweatherapp,

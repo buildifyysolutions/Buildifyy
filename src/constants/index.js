@@ -31,6 +31,7 @@ import {
   redis,
   php,
   golang,
+  blazor,
 
   // Projects
   shirtcreator,
@@ -74,7 +75,7 @@ export const navLinks = [
   },
 ];
 
-const about = 
+const about =
   "We are a skilled software developers with experience in TypeScript, .NET, Power Platform, Python and expertise in frameworks like React, Next.Js Node.Js, Blazor. We're quick learners and collaborate closely with clients to create efficient, scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to life!";
 
 const services = [
@@ -129,8 +130,24 @@ const experiences = [
 
 const technologies = [
   {
+    name: "HTML 5",
+    icon: html,
+  },
+  {
+    name: "CSS 3",
+    icon: css,
+  },
+  {
     name: "JavaScript",
     icon: javascript,
+  },
+  {
+    name: "TypeScript",
+    icon: typescript,
+  },
+  {
+    name: "Tailwind CSS",
+    icon: tailwind,
   },
   {
     name: "React JS",
@@ -149,8 +166,16 @@ const technologies = [
     icon: mysql
   },
   {
+    name: "PostgreSQL",
+    icon: postgresql
+  },
+  {
     name: "MongoDB",
     icon: mongodb
+  },
+  {
+    name: "Redis",
+    icon: redis
   },
   {
     name: "Power Platform",
@@ -161,8 +186,16 @@ const technologies = [
     icon: csharp
   },
   {
+    name: ".NET",
+    icon: dotnet
+  },
+  {
     name: ".NET Core",
     icon: dotnetcore
+  },
+  {
+    name: "Blazor",
+    icon: blazor
   },
   {
     name: "PHP",
@@ -171,7 +204,16 @@ const technologies = [
   {
     name: "Golang",
     icon: golang
-  }
+  },
+  {
+    name: "Node JS",
+    icon: nodejs
+  },
+  {
+    name: "Git",
+    icon: git,
+  },
+
 ];
 
 const projectAbout = 'Following projects showcases our skills and experience through real-world examples of our work. Each project is briefly described with links to code repositories and live demos in it. It reflects our ability to solve complex problems, work with different technologies, and manage projects effectively.';
@@ -252,7 +294,7 @@ const projects = [
     source_code_link: "https://github.com/jurecapuder/remindme",
   },
 ];
- 
+
 const testimonials = [
   {
     testimonial:
