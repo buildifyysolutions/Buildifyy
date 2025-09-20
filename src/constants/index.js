@@ -8,9 +8,7 @@ import {
   resume,
 
   // Work experience
-  lek,
-  zelinka,
-
+  milestone,
   // Technologies
   javascript,
   typescript,
@@ -77,7 +75,7 @@ export const navLinks = [
 ];
 
 const about = 
-  "I'm a skilled software developer with experience in TypeScript and JavaScript, and expertise in frameworks like React, Node.js, and Three.js. I'm a quick learner and collaborate closely with clients to create efficient, scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to life!";
+  "We are a skilled software developers with experience in TypeScript, .NET, Power Platform, Python and expertise in frameworks like React, Next.Js Node.Js, Blazor. We're quick learners and collaborate closely with clients to create efficient, scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to life!";
 
 const services = [
   {
@@ -100,30 +98,31 @@ const services = [
 
 const experiences = [
   {
-    title: "IT Support",
-    company_name: "Lek d. d.",
-    icon: lek,
+    title: "Software Engineer 2",
+    // company_name: "Lek d. d.",
+    icon: milestone,
     iconBg: "#383E56",
-    date: "June 2021 - June 2021",
+    date: "8 Years of Experience",
     points: [
-      "Assisting users with inquiries and technical issues, gaining valuable troubleshooting experience.",
-      "Efficiently managing and organizing storage resources, enhancing organizational abilities.",
-      "Creating clear and informative labels for easy identification and accessibility.",
-      "Preparing equipment and tools for tasks, emphasizing the importance of readiness.",
+      "Effectively managed the integration of NDCs (New Distribution Capabilities) using .NET, .NET Core, SOAP APIs, and REST APIs, enhancing system performance and expanding service capabilities.",
+      "Worked on migration project from SQL Server to PostgreSQL, overseeing the smooth transfer of tables, stored procedures, and data. Implemented linked servers to ensure seamless database communication.",
+      "Implemented Auth0 based SSO authentication, enhancing security and user access control for the application. Led the design and implementation of new workflows for Schedule Change, making the platform more adaptable to evolving industry needs.",
+      "Automated database data loads using Azure Data Factory pipelines, including file delimiting for seamless column separation.",
+      "Developed a model-driven Order Management and Budgeting application on Power Platform. Implemented and optimized Dual Write integration, refactoring existing processes for improved efficiency."
     ],
   },
   {
-    title: "Service and installation of computer equipment",
-    company_name: "Zelinka d.o.o.",
-    icon: zelinka,
-    iconBg: "#E6DEDD",
-    date: "March 2023 - May 2023",
+    title: "Software Engineer",
+    // company_name: "Zelinka d.o.o.",
+    icon: milestone,
+    iconBg: "#383E56",
+    date: "4 Years of Experience",
     points: [
-      "Laptop and computer service",
-      "Replacing the motherboard, battery, RAM module, fans, keyboard",
-      "Installation of computer equipment, upgrading of components",
-      "RAM, SSD/HDD, GPU, expansion slots",
-      "Diagnostics and testing of computer equipment",
+      "Engineered and refined back-end services for adtech systems, leveraging PHP, Python, and Node.js to improve system eﬀiciency and handle thousands of daily requests. Enhanced user experience by developing interactive web pages & data-driven interfaces using AJAX & jQuery.",
+      "Designed and implemented scalable RESTful APIs, resulting in a 30% reduction in data exchange latency. Developed MySQL stored procedures,enabling support for high-volume transactions and reducing query execution time by 50%.",
+      "Enhanced system performance by implementing Redis-based caching, leading to a 60% decrease in database load and faster data retrieval.",
+      "Optimized back-end processes and query logic to boost responsiveness and handle high-traﬀic operations effectively.",
+      "Contributed to a 60% increase in data processing speed & collaborated with cross-functional teams to refine ad delivery workflow, resulting in a 70% increase in ad revenue.",
     ],
   },
 ];

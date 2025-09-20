@@ -38,8 +38,7 @@ import redis from "./tech/redis.png";
 import php from "./tech/php.png";
 import golang from "./tech/golang.png";
 
-import lek from "./company/lek.png";
-import zelinka from "./company/zelinka.png";
+import milestone from "./company/white-circle.png";
 
 import shirtcreator from "./projects/shirtcreator.png";
 import androidweatherapp from "./projects/androidweatherapp.png";
@@ -93,10 +92,7 @@ export {
   redis,
   php,
   golang,
-
-  lek,
-  zelinka,
-
+  milestone,
   shirtcreator,
   androidweatherapp,
   sushi,
